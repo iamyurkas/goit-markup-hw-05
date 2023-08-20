@@ -564,7 +564,11 @@ footer {
     justify-content: center;
     fill: transparent;
 }
-
+.form-contact-checkbox-container:checked +label span {
+    background-color: var(--darkiris);
+    border: none;
+    fill: var(--cloud);
+}
 .form-contact-button  {
     display: block;
     color: var(--white);
