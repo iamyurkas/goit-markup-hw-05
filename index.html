@@ -469,7 +469,7 @@
             </div>
           </div>
           <div class="form-contact-fields">
-            <label for="phone">Phone</label>
+            <label for="phone" class="form-contact-label">Phone</label>
             <div class="form-contact-div-input">
               <input
                 type="text"
@@ -483,7 +483,7 @@
             </div>
           </div>
           <div class="form-contact-fields">
-            <label for="email"> Email</label>
+            <label for="email" class="form-contact-label"> Email</label>
             <div class="form-contact-div-input">
               <input
                 type="email"
@@ -496,11 +496,14 @@
               </svg>
             </div>
           </div>
-          <div class="form-contact-fields">
-            <label for="comment">
-              Comment
-              <textarea id="comment" placeholder="Text input"></textarea>
-            </label>
+          <div class="form-contact-texarea-field">
+            <label for="user-comment" class="form-contact-label">Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="form-contact-texarea"
+            ></textarea>
           </div>
           <label class="form-contact-tnc">
             <input type="checkbox" id="privacy" />
