@@ -565,7 +565,7 @@ footer {
     fill: transparent;
 }
 
-.form-contact-button button {
+.form-contact-button  {
     display: block;
     color: var(--white);
     min-width: 169px;
