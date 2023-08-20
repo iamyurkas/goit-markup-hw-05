@@ -564,7 +564,7 @@ footer {
     justify-content: center;
     fill: transparent;
 }
-.form-contact-checkbox-container:checked +label span {
+.form-contact-checkbox-container:checked +label span.fake-checkbox {
     background-color: var(--darkiris);
     border: none;
     fill: var(--cloud);
