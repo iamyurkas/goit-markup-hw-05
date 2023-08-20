@@ -494,9 +494,19 @@ footer {
     height: 40px;
     border-radius: 4px;
     border: 1px solid var(--navyblue-modal);
-    padding-left: 40px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.form-contact-svg {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 16px;
+    pointer-events: none;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #form-contact textarea {
     display: block;
@@ -520,21 +530,6 @@ footer {
 }
 #form-contact input:focus + svg {
     fill: var(--iris);
-}
-
-#form-contact svg {
-    position: absolute;
-    bottom: 11px;
-    left: 16px;
-    pointer-events: none;
-}
-
-
-
-.form-contact-fields {
-    margin: 24px 0;
-    display: grid;
-    gap: 8px;
 }
 
 #form-contact .form-contact-tnc {
