@@ -409,6 +409,10 @@ footer {
 .subscribe-icon {
     margin-left: 16px;
 }
+.subscribe {
+    margin-left: 80px;
+}
+
 .modal-container {
     position: fixed;
     top: 0;
@@ -542,15 +546,23 @@ footer {
     fill: var(--iris);
 }
 
-#form-contact .form-contact-tnc {
-    display: flex;
-    align-items: center;
+.form-contact-tnc {
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--lightslate);
 }
-
-#form-contact input[type="checkbox"] {
+.fake-checkbox {
     width: 16px;
     height: 16px;
-    margin-right: 8px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
 }
 
 .form-contact-button button {
