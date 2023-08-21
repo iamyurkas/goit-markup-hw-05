@@ -563,6 +563,7 @@ footer {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 .form-contact-checkbox:checked+.form-contact-tnc>.fake-checkbox {
     background-color: var(--darkiris);
