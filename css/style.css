@@ -568,7 +568,7 @@ footer {
 .form-contact-checkbox:checked+.form-contact-tnc>.fake-checkbox {
     background-color: var(--darkiris);
     border: none;
-    fill: var(--white);
+    fill: var(--cloud);
     border-color: var(--darkiris);
 }
 .form-contact-checkbox-container:checked +label span.fake-checkbox {
