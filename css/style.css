@@ -565,10 +565,10 @@ footer {
     fill: transparent;
 }
 .form-contact-checkbox:checked+.form-contact-tnc>.fake-checkbox {
-    background-color: #404BBF;
+    background-color: var(--darkiris);
     border: none;
-    fill: #FFFFFF;
-    border-color: #404BBF;
+    fill: var(--white);
+    border-color: var(--darkiris);
 }
 .form-contact-checkbox-container:checked +label span.fake-checkbox {
     background-color: var(--darkiris);
